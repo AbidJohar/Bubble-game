@@ -1,0 +1,95 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+
+
+}
+html,body{
+
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 12, 55);
+}
+
+#mainbox{
+overflow: hidden;
+  height: 90%; 
+  margin: 30px 40px;
+  border-radius: 10px;
+  border: 3px rgb(255, 252, 252) solid;
+  
+}
+
+#upperdev{
+ height: 40px;
+ background-color: rgb(6, 8, 31);
+ border-bottom: 3px rgb(255, 253, 253) solid;
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+ padding-left: 300px;
+ padding-right: 300px;
+ padding-top: 8px;
+ 
+}
+.element{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  
+   
+}
+
+.box{
+  height: 25px;
+  width: 35px;
+  background-color: rgb(246, 246, 248);
+  margin-left: 20px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+
+}
+
+#lowerdev{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: calc(100% - 40px);
+  background :radial-gradient(blue,green,white,red,orange,pink,);
+  z-index: 0;
+  color: white;
+  letter-spacing: 3px;
+
+}
+
+.bubble{
+  margin: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color:#0A0C37;
+   text-align: center;
+   font-size: 23px;
+   font-weight: 900;
+   cursor: pointer;
+   box-shadow: 2px 3px 36px -2px rgb(6, 6, 6);
+-webkit-box-shadow: 2px 3px 36px -2px rgb(6, 6, 6);
+-moz-box-shadow: 2px 3px 36px -2px rgb(9, 9, 9);
+}
+.bubble:hover{
+  background-color: rgb(255, 255, 254);
+  color: black;
+}
